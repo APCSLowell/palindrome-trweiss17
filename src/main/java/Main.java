@@ -8,7 +8,7 @@ public class Main {
 	}
 	public void setup()
 {
-  String lines[] = {"test","rotator","rewriter","nurses run", "Madam, I'm Adam!","A Man! A Plan! A Canal! Panama!"};
+  String lines[] = loadStrings(palindromes.txt);
   System.out.println("there are " + lines.length + " lines");
   for (int i=0; i < lines.length; i++) 
   {
