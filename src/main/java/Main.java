@@ -8,7 +8,7 @@ public class Main {
 	}
 	public void setup()
 {
-  String lines[] = {"palindromes.txt"};
+  String lines[] = loadStrings("palindromes.txt");
   System.out.println("there are " + lines.length + " lines");
   for (int i=0; i < lines.length; i++) 
   {
